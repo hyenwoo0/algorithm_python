@@ -8,5 +8,6 @@ sum = 0
 
 for i in B:
     sum += int(i)
-
+    print(i)
+    print(type(i))
 print(sum)
